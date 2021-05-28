@@ -3,9 +3,9 @@
     <p>This is the Home page</p>
     <br>
     <div v-show="isHome">
-        <router-link to="/planets">Planets</router-link>
-      <br>
-        <router-link to="/starships">Starships</router-link>
+        <router-link to="/planets" tag="button">Planets</router-link>
+      <br><br>
+        <router-link to="/starships" tag="button">Starships</router-link>
         <!-- Link the rout that match the path -->
      </div>
     <router-view/>
