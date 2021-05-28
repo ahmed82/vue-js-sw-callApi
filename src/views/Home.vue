@@ -1,18 +1,15 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <p>This is the Home page</p>
+    <br>
+      <router-link to="/planets">Planets</router-link>
+    <br>
+     <router-link to="/starships">Starships</router-link> <!-- Link the rout that match the path -->
+    <router-view/>
   </div>
 </template>
-
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue';
-
 export default {
   name: 'Home',
-  components: {
-    HelloWorld,
-  },
 };
 </script>
