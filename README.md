@@ -1,4 +1,5 @@
-# swapi
+# VueJS UI project
+## calling restful API
 
 ## Project setup
 ```
